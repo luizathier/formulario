@@ -1,0 +1,18 @@
+input {
+    margin: 5px;
+    border-radius: 10px;
+}
+body {
+    background-image: url(https://rare-gallery.com/livewalls/imgpreview/145878-omori-headspace.jpg);
+    font-family: monospace;
+    background-size: 100%;
+}
+
+#botao {
+background: linear-gradient(90deg, rgb(188, 221, 255) 0%, rgb(17, 136, 234) 51%, rgb(55, 69, 229) 100%);
+}
+
+#titulo{
+    background-color: antiquewhite;
+    font-size: larger;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="">
+    <fieldset>
+        <div id="titulo"><legend>Cadastro</legend></div>
+        <div>
+          <label for="Nome">Nome:</label>
+            <input type="text" name="Nome">
+           <div>
+            <label for="Sobrenome">Sobrenome:</label>
+            <input type="text" name="Sobrenome">
+           </div>
+           <div> <label for="E-mail">E-Mail:</label>
+            <input type="text" name="E-mail"></div>
+        </div>
+        <div> <label for="senha">Senha:</label>
+            <input type="text" name="senha"></div>
+        </div>
+        <div>
+            <label for="data">Data de Nascimento</label>
+            <input type="date" name="data" id="data">
+        </div>
+        <div>
+            <label for="comida">Selecione suas comidas favoritas:</label>
+            <ul>
+                <li><input type="checkbox" name="comida []" id="hamburguer"> Hambúrguer</li>
+                <li><input type="checkbox" name="comida []" id="pizza">Pizza</li>
+                <li><input type="checkbox" name="comida []" id="sushi">Sushi</li>
+                <li><input type="checkbox" name="comida []" id="cachorroquente">Cachorro Quente</li>
+                <li><input type="checkbox" name="comida []" id="xis">Xis</li>
+            </ul>
+        </div>
+        <div>
+            <label for="caracteristica">Descreva suas características:</label>
+            <input type="caracteristica"text>
+        </div>
+        <div>
+            <label for="radio">Aceita os termos de cadastro:</label>
+            <ul>
+                <li><input type="radio" name="termos" id="sim"> Sim</li>
+                <li><input type="radio" name="termos" id="nao">Não</li>
+            </ul>
+        </div>
+        <div>
+            <input type="submit" value="Cadastrar" id="botao">
+        </div>
+</form>
+</body>
+</html>
